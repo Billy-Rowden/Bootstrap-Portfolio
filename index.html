@@ -15,7 +15,7 @@
   <body>
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#billy-rowden">Billy Rowden</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,6 +32,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#About-Me">About Me</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Files/CV-Nov-2023.pdf" target="_blank">Resume</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -40,10 +43,12 @@
     
     <!-- Hero / Jumbotron -->
     <section class="jumbotron" id="billy-rowden">
-      <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Billy Rowden | Front End Web Developer</h1>
+      <div class="p-5 mb-4">
+        <div class="container-fluid py-1">
+          <h1 class="display-6 fw-bold">Billy Rowden | Front End Web Developer</h1>
           <img src="./Images/Profile-picture.jpg" id="profile-picture">
+          <p>
+          <br>Welcome! This is my portfolio page for Wed-development projects that I have worked on in the past, and where I will be uploading work that I will complete in the future.</p>
         </div>
       </div>
     </section>
@@ -56,10 +61,10 @@
       <div class="container-fluid content">
         <h4 class="sectionHeading">Work</h4>
         <!-- Card Row 1 -->
-        <div class="row work-cards">
+        <div class="row work-row1">
 
           <!-- Card 1 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="cardContainer col-lg-8 col-md-8 col-sm-12 mx-auto">
             <div class="card">
               <a href="https://billy-rowden.github.io/horiseon-code-refactor/" target="_blank">
                 <img src="./Images/horiseon-screenshot.jpg" class="card-img-top" alt="Image displaying horiseon webpage" title="Horiseon Website">
@@ -71,12 +76,13 @@
               </div>
             </div>
           </div>
-
+        </div> <!-- End Card Row 1-->
+        <div class="row work-row2">
           <!-- Card 2 -->
           <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
               <a href="https://billy-rowden.github.io/Rock-Concert/" target="_blank">
-                <img src="./Images/rock-on.png" class="card-img-top" alt="Image displaying Rock concert project page">
+                <img src="./Images/rock-on.png" class="card-img-top" alt="Image displaying Rock concert project page" title="Concert Ticket Website">
               </a>
               <div class="card-body">
                 <h4 class="card-title">Rock Concert Page</h4>
@@ -93,14 +99,13 @@
               <div class="card-body">
                 <h4 class="card-title">Place Holder</h4>
                 <p class="card-text">This is a place holder for future projects that I will be working on in the coming months.</p>
-                <a href="#" class="btn btn-primary">Check it out!</a>
+                <a href="#" class="btn btn-primary">Coming Soon!</a>
               </div>
             </div>
           </div>
         </div>
-        <!-- End Card Row 1 -->
-        <!-- Card Row 2 -->
-        <div class="row work-cards">
+      
+        <div class="row work-row3">
           <!-- Card 4 -->
           <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
@@ -108,7 +113,7 @@
               <div class="card-body">
                 <h4 class="card-title">Place Holder</h4>
                 <p class="card-text">This is a place holder for future projects that I will be working on in the coming months.</p>
-                <a href="#" class="btn btn-primary">Check it out!</a>
+                <a href="#" class="btn btn-primary">Coming Soon!</a>
               </div>
             </div>
           </div>
@@ -120,37 +125,25 @@
               <div class="card-body">
                 <h4 class="card-title">Place Holder</h4>
                 <p class="card-text">This is a place holder for future projects that I will be working on in the coming months.</p>
-                <a href="#" class="btn btn-primary">Check it out!</a>
+                <a href="#" class="btn btn-primary">Coming Soon!</a>
               </div>
             </div>
           </div>
-
-          <!-- Card 6 -->
-          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <img src="./Images/Place-holder-img5.jpg" class="card-img-top" alt="Dotted lines with web related icons">
-              <div class="card-body">
-                <h4 class="card-title">Place Holder</h4>
-                <p class="card-text">This is a place holder for future projects that I will be working on in the coming months.</p>
-                <a href="#" class="btn btn-primary">Check it out!</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Card Row 2 -->
-      </div>
+        </div> <!-- End Card Row 2 -->
+      </div> <!-- Close container fluid -->
     </section>
 
     <!-- Skills -->
-    <section id="Skills">
+    <section class="Skills">
       <h4 class="sectionHeading">Skills</h4>
-      <div class="card" style="width: 18rem;">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">HTML</li>
-          <li class="list-group-item">CSS</li>
-          <li class="list-group-item">JavaScript</li>
-          <li class="list-group-item">React</li>
-          <li class="list-group-item">Node.js</li>
+      <div class="card col-lg-2 col-md-2 col-sm-12 mx-auto">
+        <ul class="skills-list list-group list-group-flush">
+          <li class="list-group-item"><img src="./Images/html-logo.png">HTML</li>
+          <li class="list-group-item"><img src="./Images/css-logo.png">CSS</li>
+          <li class="list-group-item"><img src="./Images/javascript-logo.png">JavaScript</li>
+          <li class="list-group-item"><img src="./Images/react-logo.png">React</li>
+          <li class="list-group-item"><img src="./Images/node-logo.png"> Node.js</li>
+          <li class="list-group-item"><img src="./Images/github-logo.png">Github</li>
         </ul>
       </div>
     </section>

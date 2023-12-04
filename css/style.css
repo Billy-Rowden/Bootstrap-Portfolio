@@ -4,6 +4,23 @@
   padding: 0;
 }
 
+:root {
+  --shadow: drop-shadow(0px 0px 10px rgba(10, 10, 10, 0.9));
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Hover styles*/
+nav a:hover {
+  transform: scale(1.2);
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
 /* Nav Bar styling*/
 .navbar-nav {
   margin-left: auto;
@@ -11,11 +28,19 @@
 }
 
 .navbar-brand {
-  font-size: 35px;
+  font-size: 25px;
+  padding: 1vw;
 }
 
 .nav-item {
   margin: 0px 15px;
+}
+
+/* Jumbotron styling */
+.jumbotron {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
@@ -32,4 +57,22 @@ main {
 
 .sectionHeading {
   color: white;
+  text-align: center;
 }
+
+/*Card styling*/
+.work-row1, .work-row2, .work-row3 {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+}
+
+/*Skills section*/
+.skills-list {
+  text-align: center;
+}
+
+
