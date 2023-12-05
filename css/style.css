@@ -4,9 +4,15 @@
   padding: 0;
 }
 
+:root {
+--grey: rgb(41,41,44);
+--orange: rgb(194, 81, 29);
+--white: rgb(255, 255, 255);
+}
+
 a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 /*Hover styles*/
@@ -23,11 +29,11 @@ nav a:hover {
 }
 
 .list-group-item a:hover {
-  color:rgb(41, 41, 44)
+  color: var(--grey)
 }
 
 .btn:hover {
-  box-shadow: 2px 4px rgb(194, 81, 29);
+  box-shadow: 2px 4px var(--orange);
 }
 
 /* Nav Bar styling*/
@@ -50,13 +56,13 @@ nav a:hover {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  background-color: rgb(194, 81, 29);
-  color: white;
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 
 main {
-  background-color: rgb(41, 41, 44);
+  background-color: var(--grey);
 }
 
 /* giving profile picture circular shape */
@@ -67,7 +73,7 @@ main {
 }
 
 .sectionHeading {
-  color: white;
+  color: var(--white);
   font-size: 35px;
   text-align: center;
   padding-top: 20px;
@@ -81,8 +87,8 @@ main {
 
 .card {
   margin: 20px;
-  background: rgb(194, 81, 29);
-  color: white;
+  background: var(--orange);
+  color: var(--white);
   padding: 0.1vw;
 }
 
@@ -101,22 +107,23 @@ main {
 }
 
 .list-group-item {
-  background: rgb(194, 81, 29);
-  color: white;
+  background: var(--orange);
+  color: var(--white);
 }
 
 footer .card{
-  background-color: rgb(41, 41, 44);
+  background-color: var(--grey);
 }
 
 footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: rgb(41, 41, 44);
+  background-color: var(--grey);
 }
+
 footer p {
-  color:white;
+  color:var(--white);
 }
 
 @media only screen and (max-width: 992px){
