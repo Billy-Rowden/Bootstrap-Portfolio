@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-:root {
-  --shadow: drop-shadow(0px 0px 10px rgba(10, 10, 10, 0.9));
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -18,7 +14,7 @@ nav a:hover {
   transform: scale(1.1);
 }
 
-.card:hover {
+.hover-card:hover {
   transform: scale(1.02);
 }
 
@@ -28,6 +24,10 @@ nav a:hover {
 
 .list-group-item a:hover {
   color:rgb(41, 41, 44)
+}
+
+.btn:hover {
+  box-shadow: 2px 4px rgb(194, 81, 29);
 }
 
 /* Nav Bar styling*/
@@ -83,8 +83,13 @@ main {
   margin: 20px;
   background: rgb(194, 81, 29);
   color: white;
+  padding: 0.1vw;
 }
 
+.image-size {
+  height: 300px;
+  object-fit: cover;
+}
 
 /*Skills*/
 .skills-list {
@@ -100,3 +105,22 @@ main {
   color: white;
 }
 
+footer .card{
+  background-color: rgb(41, 41, 44);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(41, 41, 44);
+}
+footer p {
+  color:white;
+}
+
+@media only screen and (max-width: 992px){
+  nav a:hover {
+    transform: scale(1.01);
+  }
+}
