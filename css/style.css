@@ -10,15 +10,24 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 /*Hover styles*/
 nav a:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .card:hover {
   transform: scale(1.02);
+}
+
+.list-group-item img:hover {
+  transform: scale(1.2);
+}
+
+.list-group-item a:hover {
+  color:rgb(41, 41, 44)
 }
 
 /* Nav Bar styling*/
@@ -41,6 +50,8 @@ nav a:hover {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  background-color: rgb(194, 81, 29);
+  color: white;
 }
 
 
@@ -57,7 +68,9 @@ main {
 
 .sectionHeading {
   color: white;
+  font-size: 35px;
   text-align: center;
+  padding-top: 20px;
 }
 
 /*Card styling*/
@@ -68,11 +81,22 @@ main {
 
 .card {
   margin: 20px;
+  background: rgb(194, 81, 29);
+  color: white;
 }
 
-/*Skills section*/
+
+/*Skills*/
 .skills-list {
   text-align: center;
 }
 
+.list-group-item img{
+  padding-right: 10px;
+}
+
+.list-group-item {
+  background: rgb(194, 81, 29);
+  color: white;
+}
 
