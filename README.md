@@ -1,7 +1,8 @@
 # Bootstrap-Portfolio
 
 ## Building a portfolio using the bootstrap library
-    ## Description 
+
+## Description 
 
 What I have done in this project:
 
@@ -19,9 +20,10 @@ What I have done in this project:
 
 In order so that:
 
-- 
 - I have a portfolio webpage that was quicker to create by using bootstrap that I can use to show the user previous applications that I have worked on
+- I can use minimal css code in my stylesheet to obtain practically the same outcome on my webpage
 - People visiting my webpage can find ways to contact me or view my social media profiles
+- I minimised the need to use of media queries.
 
 This challenge was an exciting way to show off what I've learnt so far in this bootcamp, and an opportunity to work with other students to trouble shoot issues that we were having, and learning how to work through those problems together. By working on this project, I have learnt how useful it is to utilise coding libraries like Bootstrap in order to make building a webpage far more efficient. This has been demonstrated by this challenge taking as little as half the time to finish compared to my previous challenge building a portfolio page from scratch without the help of any libraries.
 
@@ -44,30 +46,37 @@ A webpage for my portfolio displaying web-development projects that I have compl
 
 The following image displays the web application's appearance after following the stated assessment criteria:
 
-![Alt text](assets/images/Portfolio-screenshot.png)
+![Alt text](/Images/bootstrap-portfolio-screenshot.png)
 
-By selecting any of the links titled "About me", "Work", and "Contact Me" located in the top right of the webpage, the user will be directed to the matching sections located elsewhere on the webpage. By selecting the link titled "Resume", the user will be directed to my CV in a new tab.
+By selecting any of the links titled "Work", "Skills", and "About Me" located in the top right of the webpage, the user will be directed to the matching sections located elsewhere on the webpage. By selecting the link titled "Resume" in the far top right of the navigation, the user will be directed to my CV in a new tab.
 
-![Alt text](<assets/images/Portfolio-navbar.png>)
+![Alt text](</Images/bootstrap-portfolio-nav.png>)
 
 By selecting any of the links in the "Contact Me" section located towards the bottom of the page, the user will be taken to my different social media profile pages in a new tab. 
 
-![Alt text](<assets/images/contactme-screenshot.png>)
+![Alt text](</Images/bstrap-portfolio-contacts.png>)
+
+By clicking on any of the social media icons found in the footer section located at the bottom of the page, the user will be taken to my different social media profile pages in a new tab.
+
+![Alt text](</Images/bstrap-pfolio-footer.png>)
+
 
 ## Credits
 
-The original starter code - Courtesy of EdX Bootcamps
+Snippets of code taken from https://getbootstrap.com/. 
 
 Study groups with Davou Jobbi, Andrea Fontana, Thomas Jack, Lauren Eaton, Mirian Tomani held to help understand, troubleshoot and debug each others code.
 
+Tutor sessions with bootcamp tutors Katharine Redford and Mazin Abed to gain a more indepth understanding of the principles of the code used in this project.
+
 ## Badges
 
-![badmath](https://img.shields.io/badge/HTML-48.2-blue)
-![badmath](https://img.shields.io/badge/CSS-51.8-orange)
+![badmath](https://img.shields.io/badge/HTML-84.6-blue)
+![badmath](https://img.shields.io/badge/CSS-15.4-orange)
 
 ## Features
 
-This is a basic webpage, however there are page links and text hover features that display basic descriptors for the images. There are also image hover features so that the images in the work section become clearer when the user hovers over them, and the cursor becomes a pointer while hovering over these boxes. 
+This is a portfolio webpage built using the Bootstrap libraries. There are page links to navigate the user around the webpage and text hover features that display basic descriptors for the images. There are also various hover features on the cards, buttons, links and icons to make the cursor a pointer, change their colours, enlarge them or give them shadows.
 
 ## Contributions
 

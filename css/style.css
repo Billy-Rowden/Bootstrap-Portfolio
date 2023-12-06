@@ -97,7 +97,7 @@ main {
   object-fit: cover;
 }
 
-/*Skills*/
+/*Skills section styling*/
 .skills-list {
   text-align: center;
 }
@@ -111,6 +111,7 @@ main {
   color: var(--white);
 }
 
+/* footer styling */
 footer .card{
   background-color: var(--grey);
 }
@@ -126,6 +127,7 @@ footer p {
   color:var(--white);
 }
 
+/* media queries */
 @media only screen and (max-width: 992px){
   nav a:hover {
     transform: scale(1.01);
