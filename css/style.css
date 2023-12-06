@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 :root {
 --grey: rgb(41,41,44);
 --orange: rgb(194, 81, 29);
