@@ -74,6 +74,7 @@ Tutor sessions with bootcamp tutors Katharine Redford and Mazin Abed to gain a m
 ![badmath](https://img.shields.io/badge/HTML-84.6-blue)
 ![badmath](https://img.shields.io/badge/CSS-15.4-orange)
 
+
 ## Features
 
 This is a portfolio webpage built using the Bootstrap libraries. There are page links to navigate the user around the webpage and text hover features that display basic descriptors for the images. There are also various hover features on the cards, buttons, links and icons to make the cursor a pointer, change their colours, enlarge them or give them shadows.
