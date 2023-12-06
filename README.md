@@ -6,11 +6,11 @@
 
 What I have done in this project:
 
-- Rebuilt my portfolio using the Bootstrap library
+- Rebuilt my portfolio with the Bootstrap library to include the following components: Navigation bar, Hero section, Work section, Skill section, About Me / Contact section and a Footer section.
 - HTML elements have been used following a logical structure independent of styling and positioning
 - Images contain accessible alt attributes
 - Title elements contain a concise, descriptive title
-- When the page is loaded the page presents my name, a photo of me, and links to sections about me, my work, skills I expect to use as a developer, and how to contact me
+- When the page is loaded the page presents my name, a photo of me, and links to sections about my work, skills I expect to use as a developer, about me and how to contact me and a link to my resume.
 - By clicking any of the links in the navigation is clicked then the UI scrolls to the corresponding section, and the navigation collapses into a dropdown menu with links that have the same function. 
 - The section including work that I have done, contains bootstrap cards with titled images of applications that I have worked on with buttons that when clicked, will take the user to the deployed applications.
 - The first application I worked on has an image that is bigger than the other images (which are currently placeholder images for future projects)
